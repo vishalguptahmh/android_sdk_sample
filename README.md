@@ -16,7 +16,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-	implementation 'com.github.vishalguptahmh:android_sdk_sample:Tag'
+	implementation 'com.github.vishalguptahmh:android_sdk_sample:1.0.1'
 }
 ```
 
