@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        model.text = DeviceUtils.getModelNumber() +" - "+ DeviceUtils.getPhoneName()
+        model.text = DeviceUtils.getPhoneName() +" - "+ DeviceUtils.getModelNumber();
     }
 
 }
