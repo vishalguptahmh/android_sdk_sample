@@ -8,15 +8,15 @@
 - your are all set it.
 ```groovy
 allprojects {
-		repositories {
-//			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		//...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 ```groovy
 dependencies {
-	        implementation 'com.github.vishalguptahmh:android_sdk_sample:Tag'
-	}
+	implementation 'com.github.vishalguptahmh:android_sdk_sample:Tag'
+}
 ```
 
